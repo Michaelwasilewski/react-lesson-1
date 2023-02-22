@@ -3,9 +3,9 @@ import img2 from '../images/image-2.jpg'
 import img3 from '../images/image-3.jpg'
 function PictureGrid() {
     const images = [
-      { src: img1, alt: 'Image 1', experience: 2, caption: 'HTML' },
-      { src: img2, alt: 'Image 2', experience: 2, caption: 'CSS' },
-      { src: img3, alt: 'Image 3', experience: 2, caption: 'JavaScript' },
+      { src: img1, experience: 2, caption: 'HTML' },
+      { src: img2, experience: 2, caption: 'CSS' },
+      { src: img3, experience: 2, caption: 'JavaScript' },
     ];
   
     const handleMouseEnter = (event, experience) => {
